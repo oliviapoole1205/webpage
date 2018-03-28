@@ -1,0 +1,18 @@
+/*
+* Olivia Poole
+* 3/28/18
+* CSS for goldendoodles webpage
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+body {background-color: palegoldenrod;
+	color: maroon;
+}
