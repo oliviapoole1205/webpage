@@ -1,0 +1,28 @@
+/*
+* Olivia Poole
+* 3/28/18
+* CSS for goldendoodles webpage
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+
+body {background-color: palegoldenrod;
+	color: maroon;
+}
+h1 {
+	font-weight:bold
+	Font-size: 150%;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: overline underline;
+	}
+body 	{
+	font-family:Arial, Helvetica, sans-serif
+	}
+figure  {float:right;}
