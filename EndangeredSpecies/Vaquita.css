@@ -1,0 +1,41 @@
+/*
+* Olivia Poole
+* 5/13/18
+* CSS for BoxModel
+*/
+
+* {
+    margin: 0;     /*universal selector to set margins padding to 0 so that I can change them on certain elements and not others */
+    padding: 0px; 
+}
+
+header{font-size: 300%;
+		font-weight:450;
+		text-align:center;
+		border-bottom:4px solid dimgray;
+		margin-left: 60px;
+		margin-right:60px;
+		color:dimgray;
+		}
+.topphoto {border: dashed black 3px;
+			padding: 2px;
+			margin: 15px;
+			float:left;}
+h1 {margin: 10px;
+	color:teal;}
+img{float:left;
+	height:170px;
+	width:260px;
+	margin:10px}
+body {background-color:mintcream;}
+.bottomphoto {float:right; /*floats the images over right so that they text wraps around them */
+				height:270px;
+				width:400px;
+				border: solid teal 5px;
+				margin:10px;
+				margin-bottom:10px;}
+p{margin:10px;}
+footer{border-top: 5px solid dimgray; /* used instead of using horizontal rule to divide main sector from footer */
+		margin:10px;
+		}
+.bottomtext {text-align:right;}
