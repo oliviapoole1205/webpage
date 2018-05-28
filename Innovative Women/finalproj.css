@@ -1,0 +1,89 @@
+
+/* Name:Olivia Poole
+*  Date: 5-27-18
+*  Lab: Final Project */
+
+* {
+    margin: 0; /*The universal selector sets margins and padding to zero so that they can manipulated in other areas */
+    padding: 0;
+}
+
+body {
+    width: ;
+    background-color: white;
+    margin: 15px auto;
+    border: 1px solid black;
+    background-color: lightgoldenrodyellow;
+}
+.img2 {border:solid black 1px;}
+
+h1 {
+    padding: 10px;
+   
+}
+#header {margin-left:15px;}
+
+header {text-align:center;
+    border-bottom: 2px solid red;
+    background-color: paleturquoise;
+}
+
+#sidebarA {/* id seletor is used to identify one element, which it is used for the <aside> property only */
+    width:200px ;
+    height: 512px;
+    float:left ;
+    border-right: 2px solid red;
+    margin-right:15px;
+    color:navy;
+}
+	.sidebarAhead {text-decoration:underline}
+	.img {margin-left:40px;
+	margin-top:25px;
+	border: solid black 1px;}
+main {
+    width:1500px;
+    height:510px;
+    border: 2px solid red;
+    background-color: lightgoldenrodyellow;
+    
+   }
+    p {padding-left: 20px;
+	padding-right:20px;
+	padding-top:7px;
+	padding-bottom:7px;
+	margin-left; 20px;
+	margin-right:15px;}
+   .bio1 {float: left; /*The class selector can be used for multiple properties so used it for all the images as well as some of the headers */
+    		height: 175px;
+    		width:135px;
+    		margin-left: 5px;
+    		margin-right: 20px;
+    		border: 1px solid black;}
+   .bio2{float:right;
+	border: solid black 1px;
+	height:140px;
+	width:225px;
+	margin-right:40px;
+		}
+
+#sidebarB {
+    width:200px ;
+    height: 512px;
+    float:right ;
+    border-left: 2px solid red;
+    margin-left:10px;
+    padding-left:10px;
+    color:navy;}
+	.sidebarBhead {text-decoration:underline}
+footer {
+    clear: ;
+    border-top: 2px solid red;
+    height: 150px;
+    background-color: lightgoldenrodyellow;
+    font-size:12px;
+    padding-left:10px;
+    margin-left:10px;
+    }
+    
+
+	
